@@ -6,5 +6,4 @@ import com.educandoweb.courseJava.entities.User;
 
 public interface UserRepositiry extends JpaRepository<User, Long>{
 	
-	
 }
