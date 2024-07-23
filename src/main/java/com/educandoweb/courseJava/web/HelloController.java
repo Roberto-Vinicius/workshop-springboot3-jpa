@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloController {
 
-    @GetMapping(path = "/hello")
+    @GetMapping(path = "/workshop")
     public HelloDTO hello() {
-        return new HelloDTO("Hello World!");
+        return new HelloDTO("Roberto Vinicius!");
     }
 }
